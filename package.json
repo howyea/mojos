@@ -1,0 +1,22 @@
+{
+  "name": "deja",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "0.0.1",
+  "description": "Use object-oriented writing front-end",
+  "main": "index.js",
+  "repository": "https://registry.npm.taobao.org/",
+  "author": "好叶啊",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite ./examples"
+  },
+  "devDependencies": {
+    "del-cli": "^4.0.1",
+    "lerna": "^4.0.0",
+    "vite": "^2.4.2"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@codemojos/deja",
+  "version": "0.0.0",
+  "description": "the main file of deja",
+  "author": "michealye <yhynew@126.com>",
+  "homepage": "https://github.com/huiyuye/deja#readme",
+  "license": "MIT",
+  "main": "lib/deja.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://repo.huaweicloud.com/repository/npm/"
+  },
+  "scripts": {
+    "dev": "tsc -w",
+    "prebuild": "del-cli lib",
+    "build": "tsc",
+    "prepublishOnly": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huiyuye/deja.git"
+  },
+  "bugs": {
+    "url": "https://github.com/huiyuye/deja/issues"
+  },
+  "keywords": []
+}
