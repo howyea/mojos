@@ -1,6 +1,6 @@
 export class Test {
     set(value) {
-        this.str = value + ', this is first';
+        this.str = value;
     }
     get() {
         return this.str;
