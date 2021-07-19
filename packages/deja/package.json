@@ -1,9 +1,9 @@
 {
-  "name": "@codemojos/deja",
+  "name": "mojos",
   "version": "0.0.1",
   "description": "the main file of deja",
   "author": "michealye <yhynew@126.com>",
-  "homepage": "https://github.com/huiyuye/deja#readme",
+  "homepage": "git@github.com:howyea/mojos.git#readme",
   "license": "MIT",
   "main": "lib/deja.js",
   "directories": {
@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npm.taobao.org/",
+    "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
   "scripts": {
@@ -25,10 +25,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/huiyuye/deja.git"
+    "url": "git+git@github.com:howyea/mojos.git"
   },
   "bugs": {
-    "url": "https://github.com/huiyuye/deja/issues"
+    "url": "git@github.com:howyea/mojos/issues"
   },
   "keywords": []
 }
